@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "com.spoiledcat.git": "1.0.44",
     "com.unity.collab-proxy": "2.6.0",
+    "com.unity.feature.characters-animation": "1.0.0",
     "com.unity.feature.development": "1.0.2",
     "com.unity.inputsystem": "1.11.2",
     "com.unity.multiplayer.center": "1.0.0",
@@ -39,5 +41,15 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "spoiledcat",
+      "url": "https://registry.spoiledcat.com/",
+      "scopes": [
+        "com.spoiledcat"
+      ],
+      "overrideBuiltIns": false
+    }
+  ]
 }
